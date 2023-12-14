@@ -1,0 +1,90 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Kdam+Thmor+Pro&family=Roboto+Mono&family=Roboto:wght@300&display=swap');
+
+
+
+header {
+  display: inline;
+  font-family: "Roboto Mono", monospace;
+  text-align: center;
+  text-align: center;
+  padding: 15px;
+}
+
+
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Roboto Mono", monospace;
+  background-image: url("file:///C:/Users/Fl%C3%A1vio/OneDrive/Imagens/Dia%20da%20Semana/31462076-5e36-434d-ae28-ae0867146d1d.webp");
+  background-color: #fff;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+     
+ }
+
+.container {
+  
+  flex-direction: column;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+ 
+
+ img.container__calendario {
+
+  display: flex;
+  width: 30vw;
+  height: auto;
+  
+ }
+
+footer {
+
+  display: flex;
+  width: 100vw;
+  font-size: 12px;
+  font-family: roboto mono, sans-serif;
+  text-align: center;
+  flex-direction: column;
+  position: absolute;
+  bottom: 0;
+  color: #fff;
+ }
+  
+
+
+@media (max-width: 768px) {
+
+
+  body {
+    margin: 0;
+     width: 100vw;
+     height: 100vh;
+   }
+   
+   img.container__calendario {
+  
+    display: flex;
+    width: 40vw;
+    height: 20vh;
+    margin-left: 30px;
+    
+   }
+  
+   .container {
+    max-width: 100%;
+    padding: 10px;
+  }
+  
+  header {
+    padding: 10px;
+  }
+}
+  
+
+
+
+ 
